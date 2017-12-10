@@ -22,6 +22,16 @@ sudo chmod +x autogen.sh
 sudo chmod 755 src/leveldb/build_detect_platform
 sudo ./autogen.sh
 sudo ./configure
+```
+you might have to do this:
+```
+sudo apt-get install libqt4-dev
+sudo apt-get install libjack0
+sudo apt-get install libjack-dev
+sudo apt-get install libasound2-dev
+sudo apt-get install libsndfile1-dev
+```
+```
 sudo make
 sudo make install
 ```
