@@ -45,6 +45,24 @@ sendd -daemon
 ```
 send-cli -[InsertWalletCommand]
 ```
+# Add seeds
+
+open debug console in wallet, then add following:
+```
+addnode 92.231.227.4:50050 add
+addnode 45.76.175.211:50050 add
+addnode 158.69.209.241:50050 add
+addnode 165.227.106.170:50050 add
+addnode 108.61.23.239:50050 add
+addnode 142.91.104.115 add
+addnode 104.156.225.130 add
+addnode 45.55.111.224 add
+addnode 66.55.159.5 add
+addnode 145.239.29.157 add
+addnode 67.205.181.236 add
+```
+
+
 
 ## Create swap file
 
